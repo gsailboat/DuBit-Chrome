@@ -1,0 +1,14 @@
+{
+    "name": "DuBit",
+    "version": "1.0",
+    "description": "Stop paying subscriptions and save some money!",
+    "background": {
+        "scripts": ["./js/background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "http://*/",
+        "webNavigation"
+    ],
+    "manifest_version": 2
+  }
